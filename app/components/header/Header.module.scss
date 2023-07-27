@@ -1,0 +1,39 @@
+@import "../../styles/index.scss";
+
+.header {
+  width: 100%;
+  background-color: var(--color-primary);
+  padding: toRem(24px 0px);
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo-container {
+    height: toRem(60px);
+    margin-right: toRem(25px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  &__logo {
+    height: toRem(100px);
+    margin-right: toRem(25px);
+  }
+
+  &__edition {
+    color: white;
+    font-size: toRem(24px);
+  }
+}
+
+.customerlogo {
+  padding: toRem(10px);
+  background: white;
+  border-radius: toRem(5px);
+}

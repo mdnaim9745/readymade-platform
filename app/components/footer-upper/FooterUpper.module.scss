@@ -1,0 +1,79 @@
+@import "../../styles/index.scss";
+
+.footerUpper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: toRem(984px);
+  height: toRem(198px);
+  z-index: 1;
+  padding-left: toRem(70px);
+
+  &::after {
+    content: "";
+    width: toRem(984px);
+    height: toRem(198px);
+    position: relative;
+    z-index: -1;
+    background-color: var(--color-secondary);
+    clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    background: var(--color-secondary);
+    height: 100%;
+    width: 100%;
+    margin-left: -99%;
+  }
+
+  &__image {
+    position: absolute;
+    width: toRem(276px);
+    height: auto;
+    left: toRem(342px);
+    opacity: 0.5;
+  }
+
+  &__texts {
+    position: absolute;
+    color: white;
+    @include content();
+  }
+
+  &__headline {
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: toRem(12px);
+    font-size: toRem(30px);
+  }
+
+  &__subline {
+    font-size: toRem(20px);
+    letter-spacing: toRem(0.15px);
+    margin-top: toRem(12px);
+  }
+
+  &__icons {
+    position: absolute;
+    display: flex;
+    right: toRem(80px);
+    > * + * {
+      margin-left: toRem(10px);
+    }
+  }
+
+  &__seperator {
+    width: toRem(72px);
+    position: absolute;
+    transition: all 1.2s;
+    height: toRem(1.5px);
+    transform: rotate(-75deg);
+    background: var(--color-accent);
+    right: toRem(-60px);
+    display: block;
+    top: toRem(60px);
+  }
+}

@@ -1,0 +1,32 @@
+@import "../../styles/index.scss";
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  flex: 0 1 calc(25% - $card-gap);
+
+  &__image {
+    min-width: 100%;
+    max-height: auto;
+  }
+
+  &__headline {
+    font-size: toRem(20px);
+    margin: toRem(10px 0px 0px 0px);
+  }
+
+  &__text {
+    margin: toRem(8px 0px);
+    font-size: toRem(15px);
+  }
+
+  &__link {
+    font-size: toRem(15px);
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    margin-left: toRem(10px);
+    line-height: toRem(26px);
+  }
+}

@@ -1,0 +1,10 @@
+@import "../../styles/index.scss";
+
+.heroBanner {
+  &__image {
+    position: relative;
+  }
+  &__texts {
+    position: absolute;
+  }
+}

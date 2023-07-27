@@ -1,0 +1,70 @@
+[
+  {
+    "type": "headline",
+    "content": "Das ist eine Überschrift!"
+  },
+  {
+    "type": "hero-image",
+    "alt": "Instant Platform!",
+    "src": "/images/heroImage.png"
+  },
+  {
+    "type": "paragraph",
+    "content": "Deutsch ipsum dolor sit, amet consectetur adipisicing elit. Magnam necessitatibus cum quisquam velit, veritatis sapiente consequatur perspiciatis explicabo, in neque et? Sequi cupiditate cum ea iure cumque? Vero, recusandae quasi?"
+  },
+  {
+    "type": "paragraph",
+    "content": "Deutsch ipsum dolor sit, amet consectetur adipisicing elit. Magnam necessitatibus cum quisquam velit, veritatis sapiente consequatur perspiciatis explicabo, in neque et? Sequi cupiditate cum ea iure cumque? Vero, recusandae quasi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam necessitatibus cum quisquam velit, veritatis sapiente consequatur perspiciatis explicabo, in neque et? Sequi cupiditate cum ea iure cumque? Vero, recusandae quasi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam necessitatibus cum quisquam velit, veritatis sapiente consequatur perspiciatis explicabo, in neque et? Sequi cupiditate cum ea iure cumque? Vero, recusandae quasi?"
+  },
+  {
+    "type": "paragraph",
+    "content": "Deutsch ipsum dolor sit, amet consectetur adipisicing elit. Magnam necessitatibus cum quisquam velit, veritatis sapiente consequatur perspiciatis explicabo, in neque et? Sequi cupiditate cum ea iure cumque? Vero, recusandae quasi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam necessitatibus cum quisquam velit, veritatis sapiente consequatur perspiciatis explicabo, in neque et? Sequi cupiditate cum ea iure cumque? Vero, recusandae quasi?"
+  },
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "src": "https://placeponi.es/400/300",
+        "headline": "Das ist Überschrift 1",
+        "texts": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
+        "linkText": "jetzt ansehen",
+        "href": "https://www.linkedin.com/"
+      },
+      {
+        "src": "https://placeponi.es/400/300",
+        "headline": "Das ist Überschrift 2",
+        "texts": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
+        "linkText": "jetzt ansehen",
+        "href": "https://www.linkedin.com/"
+      },
+      {
+        "src": "https://placeponi.es/400/300",
+        "headline": "Das ist Überschrift 3",
+        "texts": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
+        "linkText": "jetzt ansehen",
+        "href": "https://www.linkedin.com/"
+      },
+      {
+        "src": "https://placeponi.es/400/300",
+        "headline": "Das ist Überschrift 4",
+        "texts": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
+        "linkText": "jetzt ansehen",
+        "href": "https://www.linkedin.com/"
+      },
+      {
+        "src": "https://placeponi.es/400/300",
+        "headline": "This is headline3",
+        "texts": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
+        "linkText": "jetzt ansehen",
+        "href": "https://www.linkedin.com/"
+      },
+      {
+        "src": "https://placeponi.es/400/300",
+        "headline": "This is headline3",
+        "texts": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
+        "linkText": "jetzt ansehen",
+        "href": "https://www.linkedin.com/"
+      }
+    ]
+  }
+]

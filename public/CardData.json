@@ -1,0 +1,46 @@
+[
+    {
+      "src": "https://placeponi.es/400/300",
+      "headline": "This is headline1",
+      "texts": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
+      "linkText": "jetzt ansehen",
+      "href":"https://www.linkedin.com/"
+    },
+    {
+        "src": "https://placeponi.es/400/300",
+        "headline": "This is headline2",
+        "texts": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
+        "linkText": "jetzt ansehen",
+        "href":"https://www.linkedin.com/"
+    },
+    {
+    "src": "https://placeponi.es/400/300",
+    "headline": "This is headline3",
+    "texts": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
+    "linkText": "jetzt ansehen",
+    "href":"https://www.linkedin.com/"
+    },
+    {
+    "src": "https://placeponi.es/400/300",
+    "headline": "This is headline3",
+    "texts": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
+    "linkText": "jetzt ansehen",
+    "href":"https://www.linkedin.com/"
+    },
+    {
+    "src": "https://placeponi.es/400/300",
+    "headline": "This is headline3",
+    "texts": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
+    "linkText": "jetzt ansehen",
+    "href":"https://www.linkedin.com/"
+    },
+    
+    {
+    "src": "https://placeponi.es/400/300",
+    "headline": "This is headline3",
+    "texts": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
+    "linkText": "jetzt ansehen",
+    "href":"https://www.linkedin.com/"
+    }
+  ]
+  

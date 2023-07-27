@@ -1,0 +1,11 @@
+@import "../../styles/index.scss";
+
+.navigation {
+  > * + * {
+    margin-left: toRem(32px);
+  }
+  &__items {
+    color: white;
+    text-decoration: none;
+  }
+}

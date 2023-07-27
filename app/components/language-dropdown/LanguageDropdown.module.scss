@@ -1,0 +1,46 @@
+@import "../../styles/index.scss";
+
+.language-selector {
+  display: flex;
+  cursor: pointer;
+  color: white;
+
+  > * + * {
+    margin-left: toRem(10px);
+  }
+
+  &__dropdown {
+    position: relative;
+  }
+
+  &__options {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: toRem(-25px);
+    background-color: var(--color-secondary);
+    padding: toRem(10px 25px);
+    margin-top: toRem(5px);
+    color: white;
+    list-style: none;
+    transform: scaleY(0);
+    transform-origin: 50% 0;
+    transition: transform 0.3s ease-in;
+
+    > * + * {
+      margin-top: toRem(10px);
+    }
+
+    > * {
+      color: white;
+      &:hover {
+        color: var(--color-accent);
+      }
+    }
+  }
+}
+
+.language-selector__dropdown--open .language-selector__options {
+  transform: scaleY(1);
+}

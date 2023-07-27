@@ -1,0 +1,78 @@
+@import "./index.scss";
+@import "./fonts.scss";
+
+$color-primary: #001e3c;
+$color-secondary: #506d85;
+
+:root {
+  --color-primary: #{$color-primary};
+  --color-primary--rgb: #{hexToRGB($color-primary)};
+  --color-secondary: #{$color-secondary};
+  --color-secondary--rgb: #{hexToRGB($color-secondary)};
+  --color-secondary-dark: #17233d;
+  --color-secondary-light: #b9c5ce;
+  --color-tertiary: #c5e5e8;
+  --color-tertiary-dark: #6bc9d1;
+  --color-accent: #fcb118;
+  --color-accent-light: #ffdda1;
+  --color-background: #f5f5f5;
+
+  --box-shadow: toRem(0px 4px 4px) rgba(0, 0, 0, 0.1);
+  --box-shadow-hover: toRem(1px 5px 6px) rgba(0, 0, 0, 0.05);
+
+  --button-base-height: #{toRem(50px)};
+  --button-base-font-size: #{toRem(16px)};
+  --button-icon-size: #{toRem(44px)};
+  --button-border-radius: #{toRem(5px)};
+}
+
+html {
+  font-family: "Agenda";
+  background-color: white;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: toRem($global-min-page-width);
+}
+
+.constraint,
+main {
+  @include content();
+  max-width: toRem($global-max-page-width);
+  margin: 0 auto;
+  padding: toRem(0px $header-indentation);
+}
+
+main {
+  padding: toRem($vertical-spacing $content-indentation);
+
+  > * + * {
+    margin-top: $vertical-spacing;
+  }
+}
+
+html {
+  h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: toRem(96px);
+    color: black;
+    margin: toRem(20px 0px $vertical-spacing 0px);
+  }
+
+  p {
+    margin: toRem(20px 0px);
+    line-height: 1.5;
+    font-size: toRem(18px);
+  }
+
+  img {
+    max-inline-size: 100%;
+    block-size: auto;
+  }
+  a {
+    text-decoration: none;
+  }
+}

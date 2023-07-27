@@ -1,0 +1,13 @@
+@import "../../styles/index.scss";
+
+.heroBanner {
+  overflow: hidden;
+  position: relative;
+  min-width: 100%;
+  margin: toRem(0px ($content-indentation * -1) $vertical-spacing);
+
+  &__image {
+    min-width: 100%;
+    object-fit: cover;
+  }
+}

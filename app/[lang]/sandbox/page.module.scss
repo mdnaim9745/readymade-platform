@@ -1,0 +1,21 @@
+@import "../../styles/index.scss";
+
+.sandbox {
+  display: flex;
+  justify-content: flex-start;
+
+  &__verticalNavigation {
+    flex-basis: 25%;
+  }
+
+  &__contents {
+    flex: 1;
+    padding-left: toRem(30px);
+    position: relative;
+    top: toRem(-25px);
+
+    &--headline {
+      margin-top: 0;
+    }
+  }
+}

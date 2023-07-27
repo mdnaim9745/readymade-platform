@@ -1,0 +1,31 @@
+@import "../../styles/index.scss";
+
+$gap: toRem(50px);
+
+.image-text {
+  display: flex;
+  gap: $gap;
+  margin-left: toRem($content-indentation * -1);
+  margin-right: toRem($content-indentation * -1);
+  background: var(--color-secondary-light);
+  padding: toRem(0px ($content-indentation));
+
+  &__image {
+    width: 100%;
+    flex: 0 1 calc(45% - $gap);
+    padding: toRem(20px 0px);
+  }
+  &__body {
+    flex: 0 1 calc(55% - $gap);
+    padding: toRem(20px 0px);
+  }
+  &__headline {
+    font-size: toRem(20px);
+    margin: 0;
+  }
+
+  &__text {
+    margin: toRem(8px 0px);
+    font-size: toRem(15px);
+  }
+}

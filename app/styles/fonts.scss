@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Agenda";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Agenda Light"), url("./fonts/Agenda-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Agenda";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Agenda LightCondensed"),
+    url("./fonts/Agenda-LightCondensed.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Agenda";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Agenda MediumExtraCondensed"),
+    url("./fonts/Agenda-MediumExtraCondensed.woff2") format("woff2");
+}
